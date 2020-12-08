@@ -1,0 +1,7 @@
+version: '3'
+services:
+  prodsheet-feed:
+    volumes:
+      - ./:/app
+      - /app/node_modules
+    command: npm run start-dev

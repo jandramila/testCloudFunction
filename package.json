@@ -1,0 +1,26 @@
+{
+  "name": "prodsheet-feed",
+  "version": "1.0.0",
+  "description": "Masks production Google sheet feed",
+  "scripts": {},
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": "14.7"
+  },
+  "dependencies": {
+    "cron": "^1.8.2",
+    "dotenv": "^8.2.0",
+    "google-spreadsheet": "^3.0.11",
+    "googleapis": "^61.0.0",
+    "moment": "^2.24.0",
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {
+    "eslint": "^7.1.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.3",
+    "nodemon": "^1.19.4",
+    "prettier": "^2.0.5"
+  }
+}
