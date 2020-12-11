@@ -14,11 +14,11 @@ async function getSpreadsheet(id) {
 }
 
 async function getSheet(index, dataRange) {
-  const spreadsheet = await getSpreadsheet(process.env.PROJECT_STATUS_SPREADSHEET_ID);
+  const spreadsheet = await getSpreadsheet(process.env.PRODUCTION_SPREADHSEET_ID);
   const sheet = spreadsheet.sheetsByIndex[index];
   await sheet.loadCells(dataRange);
   const rows = await sheet.getRows();
-  return { sheet, rows }
+  return { sheet, rows };
 }
 
 module.exports = {

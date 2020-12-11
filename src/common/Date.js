@@ -1,6 +1,6 @@
 const moment = require('moment');
 
-function currentIsoString() { 
+function currentIsoString() {
   return moment().toISOString();
 }
 
@@ -17,7 +17,7 @@ function formatDate(days, format) {
   if (days) {
     date = date.day(days);
   }
-  
+
   return date.format(format);
 }
 
@@ -42,5 +42,5 @@ module.exports = {
   formatUtcDate,
   parseStringToDate,
   daysAgo,
-  weeksAgo
+  weeksAgo,
 };

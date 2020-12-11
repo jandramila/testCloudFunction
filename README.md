@@ -93,7 +93,7 @@ Token used to authenticate with slack for making requests to their API. This is 
 
 Found in the same place than SLACK_AUTH_TOKEN but on the left
 
-**PROJECT_STATUS_SPREADSHEET_ID and HAPPY_AT_AS_SPREADSHEET_ID:**
+**PRODUCTION_SPREADHSEET_ID and HAPPY_AT_AS_SPREADSHEET_ID:**
 
 Found in the url of the google sheet. It's the identification id. Remember that the google service account MUST be added as a collaborator, as if it was a normal personal account
 

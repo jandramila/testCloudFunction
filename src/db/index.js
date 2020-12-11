@@ -1,5 +1,5 @@
-const Spreadsheet = require("./Spreadsheet");
+const Spreadsheet = require('./Spreadsheet');
 
 module.exports = {
-  ...Spreadsheet,
+  Spreadsheet,
 };

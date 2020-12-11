@@ -3,5 +3,5 @@ const Date = require('./Date');
 
 module.exports = {
   Constants,
-  Date
+  Date,
 };
