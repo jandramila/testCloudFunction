@@ -35,6 +35,11 @@ function weeksAgo(dateString, format) {
   return moment().diff(date, 'weeks');
 }
 
+function getDateArr(dateParam = moment()) {
+  const date = moment(dateParam);
+  return [date.year(), date.month(), date.date()];
+}
+
 module.exports = {
   currentIsoString,
   formatUtcStringDate,
@@ -43,4 +48,5 @@ module.exports = {
   parseStringToDate,
   daysAgo,
   weeksAgo,
+  getDateArr,
 };
