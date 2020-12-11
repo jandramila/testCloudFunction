@@ -1,0 +1,23 @@
+{
+  "DateRow": "1",
+  "DayShiftRows": {
+    "babyace": { "track_1_pusher": "3", "track_2_pusher": "4" },
+    "juliette": { "track_1_pusher": "5", "track_2_pusher": "6" },
+    "littlebill": { "track_1_pusher": "7", "track_2_pusher": "8" },
+    "berger": { "track_1_pusher": "9", "track_2_pusher": "10" },
+    "melissa": { "track_1_pusher": "11", "track_2_pusher": "12" },
+    "archer": { "track_1_pusher": "13", "track_2_pusher": "14" },
+    "larry": { "track_1_pusher": "15", "track_2_pusher": "16" }
+  },
+  "TotalDayShiftRow": "17",
+  "NightShiftRows": {
+    "babyace": { "track_1_pusher": "20", "track_2_pusher": "21" },
+    "juliette": { "track_1_pusher": "22", "track_2_pusher": "23" },
+    "littlebill": { "track_1_pusher": "24", "track_2_pusher": "25" },
+    "berger": { "track_1_pusher": "26", "track_2_pusher": "27" },
+    "melissa": { "track_1_pusher": "28", "track_2_pusher": "29" },
+    "archer": { "track_1_pusher": "30", "track_2_pusher": "31" },
+    "larry": { "track_1_pusher": "32", "track_2_pusher": "33" }
+  },
+  "TotalNightShiftRow": "34"
+}
