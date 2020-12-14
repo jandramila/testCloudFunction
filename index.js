@@ -84,5 +84,3 @@ module.exports = {
   nightShiftFeedJob,
   shiftPeriodsJob,
 };
-
-dayShiftFeedJob();
