@@ -1,9 +1,9 @@
 require('dotenv').config();
 const moment = require('moment-timezone');
-const { Spreadsheet, Timeseries } = require('../db');
 const { map, split, clone, upperCase } = require('lodash');
-const { logger } = require('../logging');
-const { SHIFT, getLastDayShiftRange, getLastNightShiftRange, getShiftRange } = require('../common/Shift');
+const { Spreadsheet, Timeseries } = require('./src/db');
+const { SHIFT, getLastDayShiftRange, getLastNightShiftRange, getShiftRange } = require('./src/common/Shift');
+const { logger } = require('./src/logging');
 
 const { getAllFieldsByMachine } = Timeseries;
 const { getSheet, getSheetConfig, setShiftRecords, setShiftTotal } = Spreadsheet;
@@ -84,3 +84,5 @@ module.exports = {
   nightShiftFeedJob,
   shiftPeriodsJob,
 };
+
+dayShiftFeedJob();
